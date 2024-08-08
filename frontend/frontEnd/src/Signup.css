@@ -1,0 +1,171 @@
+/* Signup Form Styles */
+:root {
+    --form-bg-color: #fff;
+    --form-border-color: #ddd;
+    --text-color: #333;
+    --input-bg-color: #fff;
+    --input-border-color: #ddd;
+    --input-text-color: #000;
+    --placeholder-color: #999;
+    --button-bg-color: #4285f4;
+    --button-text-color: #fff;
+    --button-hover-bg-color: #3367d6;
+    --link-color: #4285f4;
+}
+
+.dark-mode {
+    --form-bg-color: #383838;
+    --form-border-color: #888;
+    --text-color: #ffffff;
+    --input-bg-color: #383838;
+    --input-border-color: #888;
+    --input-text-color: #fff;
+    --placeholder-color: #ccc;
+    --button-bg-color: #777;
+    --button-text-color: #fff;
+    --button-hover-bg-color: #666;
+    --link-color: #00d2ee;
+    
+}
+
+
+.checkbox {
+    opacity: 0;
+    position: absolute;
+
+  }
+  .ModeButton{
+    position: absolute;
+    top: 0px;
+    
+  }
+  
+  .checkbox-label {
+    background-color: #111;
+    width: 40px;
+    height: 16px;
+    border-radius: 50px;
+    position: relative;
+    right: -140px;
+    padding: 5px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .checkbox-label .ball {
+    background-color: #fff;
+    width: 22px;
+    height: 22px;
+    position: absolute;
+    left: 2px;
+    top: 2px;
+    border-radius: 50%;
+    transition: transform 0.2s linear;
+  }
+  
+  .checkbox:checked + .checkbox-label .ball {
+    transform: translateX(24px);
+  }
+  
+  
+  /*  Support me if you like it */
+  .support {
+      position: absolute;
+      right: 20px;
+      bottom: 20px;
+  }
+  
+  .support a {
+    color: #292c35;
+    font-size: 32px;
+    backface-visibility: hidden;
+    display: inline-block;
+    transition: transform 0.2s ease;
+  }
+  
+  .support a:hover{
+    transform: scale(1.1);
+  }
+
+.signup-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: var(--form-bg-color);
+    border: 1px solid var(--form-border-color);
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    height: 93vh; /* Changed height to 100vh to fill the entire viewport */
+}
+
+.signup-form h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: var(--text-color);
+}
+
+.signup-form input {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-bottom: 1px solid var(--input-border-color);
+    border-radius: 0;
+    background-color: var(--input-bg-color);
+    color: var(--input-text-color);
+}
+
+.signup-form input::placeholder {
+    color: var(--placeholder-color);
+}
+
+.signup-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: var(--button-bg-color);
+    color: var(--button-text-color);
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.signup-form button:hover {
+    background-color: var(--button-hover-bg-color);
+}
+
+.signup-form p {
+    margin-top: 10px;
+    text-align: center;
+    color: var(--text-color);
+}
+
+.signup-form p a {
+    color: var(--link-color);
+    text-decoration: none;
+}
+
+.signup-form p a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 600px) {
+    .signup-form {
+        width: 100%;
+    }
+}
+
+/* Additional Styles */
+.signup-form input[type="text"],
+.signup-form input[type="email"],
+.signup-form input[type="password"] {
+    width: 90%;
+}
+
+/* Custom Styles */

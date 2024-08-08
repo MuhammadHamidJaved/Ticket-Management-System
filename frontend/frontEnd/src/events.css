@@ -1,0 +1,40 @@
+
+
+main{
+    padding-top:  70px;
+}
+.post2 p{
+    
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+}
+.post2 h4{
+    width: 200%;
+}
+.post2 h3{
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.posters{
+    padding: 30px;
+    background-image: url('https://c4.wallpaperflare.com/wallpaper/681/213/286/blur-background-pink-orange-wallpaper-thumb.jpg');
+     background-size: cover;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.posters .post{
+    text-align: center;
+   
+}
+.posters img:hover{
+    transform: scale(110%);
+
+}
+footer{
+    background-color: gray;
+    display: flex;
+   flex-direction: column;
+  
+}

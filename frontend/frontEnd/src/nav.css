@@ -1,0 +1,97 @@
+:root{
+    --navColor:rgba(245, 244, 244, 0.925);
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(235, 235, 235);
+}
+.navigation{
+    display: flex;
+    width: 100%;
+    background-color: var(--navColor);
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    z-index: 4;
+    align-items: center;
+    top:0;
+    justify-content: space-between;
+  
+}
+.navigation .leftside{
+    display: flex;
+    align-items: center;
+}
+.navigation svg{
+    margin: 0 5px;
+}
+
+.navigation .logo{
+   width: 180px;
+   z-index: 4;
+    
+}
+
+.navigation ul{
+    display: flex;
+    list-style: none;
+}
+.navigation ul li{
+    margin: 10px 2vw;
+}
+.navigation ul a, .loginButton {
+    text-decoration: none;
+    color: rgb(175, 114, 1);
+}
+.sideBar{
+    position: fixed;
+    
+    width: 200px;
+    height: 100vh;
+    background-color: var(--navColor);
+    display: none;
+   
+   
+    z-index: 3;
+
+}
+.navigation .side ul{
+    display: flex;
+    flex-direction: column;
+}
+.navigation .side:hover .sideBar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    object-fit: contain;
+}
+.sideBar ul li{
+    margin: 15% 0;
+    
+}
+.sideBar ul li span{
+    padding: 0 10px;
+}
+.sideBar ul {
+    list-style: none;
+}
+.sideBar ul a{
+    text-decoration: none;
+
+}
+
+.LogOutButton{
+    background-color: rgb(255, 231, 186);
+    border: 0;
+    border-radius: 10px;
+}
+.LogOutButton:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+button:hover{
+    cursor: pointer;
+}

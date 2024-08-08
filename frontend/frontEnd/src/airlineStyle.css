@@ -1,0 +1,239 @@
+
+.airlineStyle main{
+    padding-top:  70px;
+}
+.airlineStyle #emiratesairline{
+    height: 90px;
+    margin-left: 20px;
+}
+
+.airlineStyle #saudiairline{
+    height: 120px;
+    margin-left: 20px;
+}
+
+.airlineStyle #pia
+{
+    height: 40px;
+    margin-left: 20px;
+}
+
+.airlineStyle #etihad
+{
+    height: 80px;
+    margin-left: 20px;
+
+}
+
+.airlineStyle #toggleButton {
+    background-color: #ffffff;
+    border: none;
+    cursor: pointer;
+    padding: 5px 10px;
+}
+
+.airlineStyle #toggleButton i {
+    color: #333333;
+    font-size: 24px;
+    margin-right: 5px;
+}
+
+.airlineStyle .vertical-line {
+    border-left: 1px solid #e0e0e0; /* Reduced thickness for vertical line */
+    height: 1000px; /* Height of the vertical line */
+    margin-left: 230px;       
+    margin-top: 0px; /* Margin to move the line down */
+}
+
+.airlineStyle .blue-box {
+    position: absolute;
+    top: 60.5px;
+    width: 1245px;
+  
+    background-color: #ffffff;
+}
+
+.airlineStyle .blue-box h1 {
+    color: #212121; /* Text color of the heading */
+    font-size: 24px; /* Font size of the heading */
+    font-weight: bold; /* Make the heading bold */
+    font-family: 'Araboto Light', sans-serif;
+    margin-top: 20px; /* Remove default margin */
+    margin-left: 40px; /* Move the heading a bit to the right */
+    font-size: 28px;
+}
+
+.airlineStyle .blue-box p {
+    color: #212121; /* Text color of the paragraph */
+    font-size: 16px; /* Font size of the paragraph */
+    font-family: 'Araboto Light', sans-serif;
+    margin-top: 15px; /* Add margin to the top */
+    margin-left: 40px; /* Move the heading a bit to the right */
+    text-align: justify; /* Justify text alignment */
+    letter-spacing: 1px;
+}
+
+
+.airlineStyle .blue-box input[type="radio"] {
+    display: none;
+    margin-left: 40px;
+}
+
+.airlineStyle .blue-box label {
+color: #212121;
+font-family: 'Araboto Light', sans-serif;
+font-size: 16px;
+position: relative;
+padding-left: 40px; /* Increased padding-left */
+cursor: pointer;
+}
+
+.airlineStyle .blue-box .radiobutton::before {
+content: '';
+position: absolute;
+left: 20px; /* Adjusted left value to move the radio button further to the right */
+top: 50%;
+transform: translateY(-50%);
+width: 16px;
+height: 16px;
+background-color: rgb(255, 255, 255); /* Blue background */
+border: 1px solid #212121; /* White border */
+border-radius: 50%; /* Circle shape */
+}
+
+.airlineStyle .blue-box input[type="radio"]:checked + label::before {
+background-color: #212121; /* White background when selected */
+}
+.input-container {
+ width: auto; 
+margin-left: 40px;
+}
+
+.airlineStyle .input-container input[type="text"],
+.airlineStyle .input-container input[type="date"] {
+display: inline-block; 
+vertical-align: middle; 
+margin-right: 10px;
+width: calc(30% - 10px); 
+}
+
+.airlineStyle .flight_form input[type="text"] {
+    padding-left: 15px;  /* space for the padding */
+    border: 1px solid #aaa;
+    border-radius: 10px; /* rounded corners */
+    width: 90%;
+    height: 35px;
+    box-sizing: border-box; /* includes padding and border in width */
+    font-size: 16px;
+}
+
+.airlineStyle .flight_form input[type="text"]:focus {
+    border-color: #007BFF; /* example focus color */
+    outline: none;
+}
+
+.airlineStyle .flight_form input[type="date"] {
+    padding: 10px;             /* Add some padding */
+    border: 1px solid #ccc;    /* Add a border */
+    border-radius: 5px;        /* Add rounded corners */
+    font-size: 16px;           /* Set font size */
+    font-family: 'Araboto Light', sans-serif;
+}
+
+.airlineStyle #SearchButton {
+border: none;
+transform: translateY(-50%); /* Adjust vertical positioning */
+background-color: #ecd135; /* Yellow background */
+font-size: 15px;           /* Increase font size */
+font-family: 'Araboto Light', sans-serif;
+padding: 8px 15px;         /* Increase padding */
+color: white;              /* White text color */
+border-radius: 20px;       /* Curved edges */
+cursor: pointer;           /* Change cursor to pointer on hover */
+width: 20vw;
+margin-top: 2%;
+}
+
+.airlineStyle #SearchButton:hover {
+    background-color: #ffc107c4; /* Darker yellow on hover */
+}    
+
+.airlineStyle  .h1_flight{
+    margin-left: 80px;
+}
+
+.airlineStyle .FlightPartners {
+    position: absolute;
+    top: 450px;
+    width: 1245px;
+    height: 270px;
+    background-color: white;
+}
+
+.airlineStyle .FlightPartners h1, .airlineStyle .WhyUseBookEase h1 {
+    color: #212121; /* Text color of the heading */
+    font-size: 24px; /* Font size of the heading */
+    font-weight: bold; /* Make the heading bold */
+    font-family: 'Araboto Light', sans-serif;
+    margin-top: 20px; /* Remove default margin */
+    margin-left: 40px; /* Move the heading a bit to the right */
+    font-size: 28px;
+}
+
+.airlineStyle .FlightPartners p,.airlineStyle .WhyUseBookEase p {
+    color: #212121; /* Text color of the paragraph */
+    font-size: 16px; /* Font size of the paragraph */
+    font-family: 'Araboto Light', sans-serif;
+    margin-top: 15px; /* Add margin to the top */
+    margin-left: 40px; /* Move the heading a bit to the right */
+    text-align: justify; /* Justify text alignment */
+    letter-spacing: 1px;
+}
+
+.airlineStyle .WhyUseBookEase {
+    position: absolute;
+    top: 750px;
+    width: 1245px;
+    height: 270px;
+    background-color: #212121;
+    Opacity: 0.96;
+}
+
+.airlineStyle .WhyUseBookEase h1 {
+    color: white; /* Text color of the heading */
+    font-size: 24px; /* Font size of the heading */
+    font-weight: bold; /* Make the heading bold */
+    font-family: 'Araboto Light', sans-serif;
+    margin-top: 20px; /* Remove default margin */
+    margin-left: 40px; /* Move the heading a bit to the right */
+    font-size: 28px;
+}
+
+.airlineStyle .WhyUseBookEase p {
+    color: white; /* Text color of the paragraph */
+    font-size: 16px; /* Font size of the paragraph */
+    font-family: 'Araboto Light', sans-serif;
+    margin-top: 15px; /* Add margin to the top */
+    margin-left: 40px; /* Move the heading a bit to the right */
+    text-align: justify; /* Justify text alignment */
+    letter-spacing: 1px;
+}
+
+.airlineStyle .WhyUseBookEase li{
+    color: white;
+    font-family: 'Araboto Light', sans-serif;
+    font-size: 18px; /* Font size of the paragraph */
+    margin-left: 20px;
+}
+
+.airlineStyle .image-container img {
+width: 170x;
+height: 170px;
+margin-left: 20px;
+}
+
+.airlineStyle #toggleButton,.airlineStyle .image-container{
+display: inline-block; /* Make both elements inline-block */
+vertical-align: top;    
+margin-top: 10px;
+}
